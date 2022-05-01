@@ -1,4 +1,3 @@
-# 認証確認用コントローラー
 class Api::V1::Auth::SessionsController < ApplicationController
   def index
     if current_api_v1_user
